@@ -42,9 +42,9 @@ public class MovementSpeedMod implements ClientModInitializer {
 
     public void onTick(MinecraftClient client) {
         if (smootherFpsEnabled) {
-            client.player.setSpeed(10f);
+            client.player.setSpeed(15f);
         } else {
-            client.player.setSpeed(5f);
+            client.player.setSpeed(15f);
         }
     }
 
